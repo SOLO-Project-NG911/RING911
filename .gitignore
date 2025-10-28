@@ -1,0 +1,25 @@
+# Build artifacts
+/target/
+/dist/
+/build/
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and caches
+*.log
+*.tmp
+*.swp
+
+# Rust / cargo
+Cargo.lock
+*.rs.bk
+
+# Python (if used for tooling)
+__pycache__/
+*.pyc
+
+# OS junk
+Thumbs.db

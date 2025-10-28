@@ -1,0 +1,13 @@
+# Enforce LF line endings
+* text=auto eol=lf
+
+# Treat docs as text
+*.md text diff=markdown
+
+# Handle Rust sources
+*.rs text diff=rust
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
